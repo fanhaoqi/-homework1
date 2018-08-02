@@ -1,0 +1,54 @@
+@import 'common.scss';
+.cont {
+    width: 100%;
+    padding-left: px2rem(15px);
+    h3 {
+        font-size: px2rem(18px);
+        height: px2rem(50px);
+        line-height: px2rem(50px);
+        border-bottom: px2rem(1px) solid #ccc;
+    }
+    dl {
+        width: 100%;
+        height: px2rem(100px);
+        border-bottom: px2rem(1px) solid #ccc;
+        @include display(flex);
+        dt {
+            padding: px2rem(5px);
+            img {
+                max-width: px2rem(100px);
+                max-height: px2rem(80px);
+            }
+        }
+        dd {
+            flex: 1;
+            padding: px2rem(15px);
+            h4 {
+                font-size: px2rem(18px);
+                color: rgb(102, 102, 102);
+            }
+            h5 {
+                font-size: px2rem(14px);
+                color: rgb(137, 137, 137);
+            }
+            h6 {
+                font-size: px2rem(14px);
+                color: rgb(137, 137, 137);
+                .price {
+                    .strong {
+                        font-size: px2rem(20px);
+                        font-weight: 800;
+                        color: #06c1ae;
+                    }
+                    .strong-color {
+                        font-size: px2rem(14px);
+                        color: #06c1ae;
+                    }
+                    .line-right {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
