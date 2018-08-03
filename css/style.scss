@@ -133,3 +133,105 @@ section {
         }
     }
 }
+
+.footer {
+    width: 100%;
+    height: px2rem(250px);
+    background: #eee;
+    .one {
+        width: 95%;
+        height: px2rem(65px);
+        margin: 0 auto;
+        padding: px2rem(10px) 0;
+        position: relative;
+        .btn1 {
+            border: none;
+            font-size: 14px;
+            background: #eee;
+            border: 1px solid #68d9ce;
+            color: #68d9ce;
+            margin-right: px2rem(10px);
+            padding: px2rem(5px) px2rem(15px);
+            border-radius: 5px;
+            outline: none;
+        }
+        .btn2 {
+            border: none;
+            font-size: 14px;
+            background: #eee;
+            border: 1px solid #68d9ce;
+            color: #68d9ce;
+            padding: px2rem(5px) px2rem(15px);
+            border-radius: 5px;
+            outline: none;
+        }
+        .zi {
+            font-size: 14px;
+            margin-left: 17%;
+        }
+        .btn3 {
+            border: none;
+            font-size: 14px;
+            background: #eee;
+            border: 1px solid #68d9ce;
+            color: #68d9ce;
+            padding: px2rem(5px) px2rem(25px);
+            border-radius: 5px;
+            position: absolute;
+            right: 10px;
+            outline: none;
+        }
+    }
+    .two {
+        width: 90%;
+        height: px2rem(30px);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        a {
+            color: #68d9ce;
+            font-size: 12px;
+        }
+    }
+    .therr {
+        width: 75%;
+        height: px2rem(90px);
+        margin: 0 auto;
+        text-align: center;
+        padding: px2rem(15px) 0;
+        a {
+            color: #68d9ce;
+        }
+    }
+    .dibu {
+        width: 95%;
+        height: px2rem(20px);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-top: px2rem(10px);
+        span {
+            width: px2rem(80px);
+            height: 1px;
+            background: #999;
+            display: inline-block;
+        }
+        .span1 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+        }
+        .span2 {
+            position: absolute;
+            right: 0;
+            top: 50%;
+        }
+        p {
+            font-size: 10px;
+            color: #999;
+            margin: 0 auto;
+        }
+    }
+}
